@@ -1,15 +1,14 @@
 This repo is to show how to deploy your Github project to PHPFog.
 
 Steps:
-0. Get a Github account and app.  It helps to push things to this app of course :)
-1. Get a PHPFog account 
- 1a. Go to https://phpfog.com/register and make an account.
- 1b. Create a "custom PHP" app after creating your account.
- 1c. Wait for the app to deploy (should be about 1~5 minutes). 
- 1d. While you wait, add your ssh pub key to phpfog(https://phpfog.com/account#/ssh_keys).
-2. This is the important part. Copy the git URL of your new PHPFog app.
-3. In your local github repo run this command:
+# Get a Github account and app.  It helps to push things to this app of course :)
+# Get a PHPFog account 
+## Go to https://phpfog.com/register and make an account.
+## Create a "custom PHP" app after creating your account.
+## Wait for the app to deploy (should be about 1~5 minutes). 
+## While you wait, add your ssh pub key to phpfog(https://phpfog.com/account#/ssh_keys).
+# This is the important part. Copy the git URL of your new PHPFog app.
+# In your local github repo run this command:
 
-git add remote phpfog <the URL you copied>
-
-4. git push phpfog
+    git add remote phpfog <the URL you copied>
+    git push phpfog
