@@ -1,7 +1,7 @@
-See?<br>  
-You can push your GitHub app to PHPFog!<br>
+See? See?<br>  
+You can push your Github repo to PHP Fog!<br>
 <br>
-Happy coding<br>
+Happy coding!<br>
 <br>
 --Rich
 
