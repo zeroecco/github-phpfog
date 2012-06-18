@@ -10,7 +10,7 @@ Steps:
 2d. While you wait, add your ssh pub key to phpfog(https://phpfog.com/account#/ssh_keys).
 3. This is the important part. Copy the git URL of your new PHPFog app.
 4. In your local github repo run this command:
-    git add remote phpfog <the URL you copied>
+    git remote add  phpfog <the URL you copied>
     git push phpfog
 
 Note: Need proof?  check out: http://github-phpfog.phpfogapp.com/
